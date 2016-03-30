@@ -23,7 +23,8 @@ if __name__ == '__main__':
     f.close()
     dataset = []
     for data in temp:
-        dataset.append(data.replace('\r\n',''))
+        #dataset.append(data.replace('\r\n',''))
+        dataset.append(data.replace('\n',''))
 
     '''
         Proses Enkripsi dan decrypt
